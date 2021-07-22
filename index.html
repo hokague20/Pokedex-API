@@ -13,7 +13,7 @@
         </div><!--main-->
         
         <script>
-            catchPokemons(50);
+            catchPokemons(14); //escolha a quantidade de pokemons para ver na pokedex
            function catchPokemons(amount){
             fetch('https://pokeapi.co/api/v2/pokemon?limit='+amount)
             .then(response => response.json())
